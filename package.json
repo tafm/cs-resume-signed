@@ -1,6 +1,6 @@
 {
   "name": "cloud-storage-resume-signed",
-  "version": "0.1.11",
+  "version": "0.2.1",
   "description": "Upload file to a google cloud storage signed URL with resume option",
   "main": "lib/cs-resume-signed.min.js",
   "scripts": {
