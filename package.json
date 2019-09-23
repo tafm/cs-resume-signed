@@ -2,8 +2,9 @@
   "name": "cloud-storage-resume-signed",
   "version": "0.1.11",
   "description": "Upload file to a google cloud storage signed URL with resume option",
-  "main": "lib/cs-resume-signed.js",
+  "main": "lib/cs-resume-signed.min.js",
   "scripts": {
+    "build": "WEBPACK_ENV=build webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +26,16 @@
     "spark-md5": "^3.0.0",
     "xmldom": "^0.1.27",
     "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "4.1.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "0.1.2",
+    "babel-regenerator-runtime": "^6.5.0",
+    "eslint": "1.7.2",
+    "eslint-loader": "1.1.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^3.3.9"
   }
 }
